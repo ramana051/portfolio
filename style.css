@@ -1,0 +1,127 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #e4f1f6;
+    color: #1a3e4c;
+  }
+  
+  .sign {
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+    color: #347b98;
+  }
+  
+  .navbar-light {
+    background-color: #e4f1f6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #1a3e4c;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #67afcb;
+  }
+  
+  h1,
+  h2,
+  h4,
+  h5 {
+    color: #347b98;
+  }
+  
+  a {
+    color: #347b98;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #67afcb;
+  }
+  
+  .custom-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .btn-dark {
+    background-color: #347b98;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #092834;
+  }
+  
+  footer {
+    background-color: #e4f1f6;
+    padding-top: 2rem;
+    border-top: 2px solid #092834;
+  }
+  
+  .rounded-pill {
+    border: 5px solid #1a3e4c;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(26, 62, 76, 0.2);
+    transition: transform 0.3s;
+    background-color: white;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    color: #347b98;
+  }
+  
+  .card-footer a {
+    color: #092834;
+    font-weight: 600;
+  }
+  
+  .container h2 {
+    margin-bottom: 2rem;
+    color: #1a3e4c;
+  }
+  
+  .main-3,
+  .main-2 {
+    background-color: #e4f1f6;
+  }
+  
+  .btn {
+    background-color: #347b98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
+  
+  .btn:hover {
+    background-color: #092834;
+  }
+  
+  .contact-icon {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .contact-icon:hover {
+    transform: scale(1.15);
+  }
+  
+  .nav-link:hover {
+    color: #67afcb !important;
+    text-decoration: underline;
+  }
+  
